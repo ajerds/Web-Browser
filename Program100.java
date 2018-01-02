@@ -167,10 +167,6 @@ public class Program100 extends Application {
 		vBox.getChildren().add(next);
 		Text statusBar = new Text( " displays the URL of the link your mouse is hovering over");
 		vBox.getChildren().add(statusBar);
-    	Text name = new Text( "Amanda Erdmann");
-    	vBox.getChildren().add(name);
-		Text course = new Text( "CS 1131, Thursday Lab ");
-		vBox.getChildren().add(course);
 
 		help = new Stage();
 		help.setTitle("Help");
